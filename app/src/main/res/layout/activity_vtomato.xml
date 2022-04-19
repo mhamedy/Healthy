@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_card2"
+    tools:context=".vTomato">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tomato" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:text="Tomatoes"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="T94.5% of tomato’s weight is water.\n
+Tomato plant originates from the family of Nightshade plants (potato, tobacco, chili peppers) from Central America. It was domesticated around 500 BC by Aztecs and used not only as a food, but also as powerful (and dangerous) hallucinogenic.\n
+Tomatoes can keep longer if you store them with their stem down.
+First European who came in contact with tomato was Spanish conquistador Hernán Cortés during the scaking of the Aztec city Tenochtítlan. He brought its seeds back to Spain, where it was instantly introduced into regular diet of their soldiers and sailors.\n
+It is speculated that there is over 25 thousand tomato varieties.
+Many European countries resisted to include tomato and other new world vegetables into their diets. They feared them because they were not mentioned in the bible, untrained use led to bad yields on farms, and inedible parts caused sickness and death.\n
+Americans obtain more vitamins from tomatoes than from any other vegetable.\n
+Average American eats around 24 pounds of tomato each year.\n
+During 17th and 18th century, tomato fruits were often used in Italy as table decoration. During that time, Italian botanist created countless types of tomatoes via selective breeding.\n
+Modern day production of tomato in the United States came with the exploits of botanist Alexander W. Livingston, who created several types of tomato that were suitable for mass industrial production and processing.\n
+93% of American gardening households grow tomatoes! It’s the most popular vegetable in the US.
+96% of the American processed tomato production comes from sunny California. Florida is the leader in the production and sale of fresh market tomatoes.\n
+Heaviest tomato was 3.51 kg, largest tomato plant reached 19.8 meters, and biggest tomato tree managed to grow 32 thousand tomatoes that weight 522 kg.\n
+Tomatoes rapidly lose their Vitamin C if sunlight can reach them while they are stored.\n
+Sometimes tomatoes are picked green and dosed with ethylene gassed on their way to the supermarket. This way when they arrive, they are ripe.\n
+Tomato is called “tomate” in French and Spanish, “tomaat” in Dutch and “pomodoro” in Italian.\n
+Green tomatoes will ripe if you store them together with apples. Released ethylene gas will provide perfect conditions to ripen faster. If you don’t have apples, you can loosely wrap them in newspapers and leave them for week or two.\n
+In 19th century tomato was called “The Apple of Love” in France and “The Apple of Paradise” in Germany. In England it was considered to be poisonous.\n
+Americans have increased their tomato consumption 30% over the last 20 years. In the last few years however, salsa has replaced ketchup as the top selling condiment in the United States.\n
+Leaves of tomato plant are toxic.\n
+¾ of the American tomato consumption comes from processed tomatoes.\n
+Tomato has powerful medicinal properties. It can lower the risk of cancer, prevents cardiovascular diseases, purifies cigarette smoke carcinogens, full of minerals and vitamins, lowers hypertension, regulates blood levels, dissolves gallstones, reduces severity of blood clots, treats inflammation, and more.\n
+Refrigeration decreases flavor and quality of tomatoes.\n
+Tomato juice is the official state beverage of Ohio, and state vegetable of New Jersey.
+In 2010 worldwide production of tomatoes reached 145.7 million tons. Leader in production and export is China with 41.8 million tons." />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_card6"
+    tools:context=".vonion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/onion" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:text="Onion"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Onion Facts\n
+Onion is a type of vegetable that belongs to the family Amaryllidaceae.\nThis plant originates from central Asia, but it can be found around the world today.\nCultivation of onion started 7000 years ago and resulted in creation of numerous varieties of onions that differ in size, shape, color and taste.\nOnion grows in temperate regions, on the sandy and well drained soils.\nBesides high nutritional value, onion beneficially affects human health.\n
+Interesting Onion Facts:
+Onion can reach 1 to 4.5 inches in diameter.\nHeaviest onion ever recorded had 10 pounds and 14 ounces of weight.\n
+Onion develops root, bulb and green leaves.\nBulb is edible part of the onion and it consists of tightly packed leaves. Outer leaves are dry and firm.\nThey protect inner, moist and soft leaves.\n
+6 to 8 months after planting, bulb ceases production of new leaves. Nutrients from the leaves descend to the bulb, which becomes ready for the harvest.\n
+Onion can be rounded, egg-like or torpedo-shaped.\nAll types of onions are divided in three groups based on the color: yellow, red and white onions.\n
+Onion is rich source of vitamin C, manganese, potassium and phosphorus. It has low caloric value and high content of dietary fibers.\n
+Onions can be consumed raw (in the form of salads), cooked or pickled.\n
+Cutting of onion is always associated with crying.\nOnion releases sulfur during the process of slicing which creates sulfuric acid in combination with moisture from the eyes.\nThis acid induces painful sensation and eyes produce tears to eliminate it.\n
+Onion was worshiped in the ancient Egypt.\nThese plants were inevitable part of burial rituals and tombs of most rulers are covered with pictures of onion.\nEgyptians believed that onion possesses magic powers and that it can ensure success in the afterlife.\nOnion was even used as currency along with parsley and garlic.\n
+Onion was used as diuretic, to improve digestion, and to ensure good health of heart, eyes, and joints in the 6th century BC in India.\n
+Onion was used as strength-booster during the Olympic Games in Greece in the 1st century AD.\n
+Around 50 million tons of onions are produced each year.\nAverage person consumes 13.7 pounds of onion annually.\nOnions are very popular in Libya where each person consumes 66.8 pounds of onion per year.\n
+Sliced onion can sooth insect bites and burns on the skin.\nWhen combined with crushed aspirin and little water, slices of onion can be also used in treatment of warts.\n
+Quercetin, phenols and flavonoids isolated from onion have anti-microbial and anti-cancer properties.\nThey also show beneficial effects in treatment of cataract and cardiovascular diseases.\n
+Crushed onion can be used for polishing of silverware and other metal objects.\n
+Domesticated varieties of onion are cultivated as annual plants - they are harvested in the first year of their life."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_card4"
+    android:layout_height="match_parent"
+    tools:context=".vPepper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bell_peppers" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:text="Bell Peppers"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="How to prepare\n
+Remove the seeds and inner membranes. To stuff a capsicum, cut the stem off and remove the seeds from the top, alternatively it can be easier to cut the capsicum in half first. To remove capsicum skins, roast, grill or barbecue until the skin blisters and blackens. Slip the burnt skins off. To make this easier place capsicums in a plastic bag or covered dish for a few minutes and then peel skin off.\n
+Ways to eat\nCapsicums can be eaten raw or cooked. Use raw in salads, cut into strips and eat with dips, or use as an edible garnish. Dice capsicums for use on pizzas; cut into chunks for kebabs; use in pasta sauces; or add to stir fries. Stuff with rice or a breadcrumb mixture and bake. Add roasted capsicums, either hot or cold, to salads and sandwiches. Click here for recipes.\n
+Cooking methods\nBake, grill, roast, stir fry, stuff.\nNutrition\n
+All capsicums are a good source of vitamin C and a source of vitamin B6. Red/yellow/orange capsicums are a source of folate. Red capsicums contain higher levels of vitamin C compared to the other colours and both red and orange capsicums are a source of vitamin A. A range of carotenoids are responsible for the different colours.\n
+Red capsicums are a good source of vitamin C, folate and vitamin B6, and a source of vitamin A.\n
+Green capsicums are a good source of vitamin C and a source of vitamin B6.\n
+Yellow capsicums are a good source of vitamin C, and a source of folate and vitamin B6.\n
+Orange capsicums are a good source of folate and vitamin C, a source of vitamin A, vitamin B6 and vitamin E.\n"
+/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

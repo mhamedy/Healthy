@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_card7"
+    tools:context=".vpotatoes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/potatoes" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:text="Potatoes"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="Wild potato species can be found from the southern United States to southern Chile.\nThe potato was originally believed to have been domesticated by Native Americans independently in multiple locations, but later genetic studies traced a single origin, in the area of present-day southern Peru and extreme northwestern Bolivia.\nPotatoes were domesticated there approximately 7,000–10,000 years ago, from a species in the Solanum brevicaule complex.\nIn the Andes region of South America, where the species is indigenous, some close relatives of the potato are cultivated.\n
+Potatoes were introduced to Europe from the Americas in the second half of the 16th century by the Spanish.\nToday they are a staple food in many parts of the world and an integral part of much of the world's food supply.\nAs of 2014, potatoes were the world's fourth-largest food crop after maize (corn), wheat, and rice.[8] Following millennia of selective breeding, there are now over 5,000 different types of potatoes.[6] Over 99% of potatoes presently cultivated worldwide descended from varieties that originated in the lowlands of south-central Chile\n The importance of the potato as a food source and culinary ingredient varies by region and is still changing.\n It remains an essential crop in Europe, especially Northern and Eastern Europe, where per capita production is still the highest in the world, while the most rapid expansion in production over the past few decades has occurred in southern and eastern Asia, with China and India leading the world in overall production as of 2018.\n
+Like the tomato, the potato is a nightshade in the genus Solanum, and the vegetative and fruiting parts of the potato contain the toxin solanine which is dangerous for human consumption.\n Normal potato tubers that have been grown and stored properly produce glycoalkaloids in amounts small enough to be negligible to human health, but, if green sections of the plant (namely sprouts and skins) are exposed to light, the tuber can accumulate a high enough concentration of glycoalkaloids to affect human health." />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

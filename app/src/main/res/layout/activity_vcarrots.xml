@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_card3"
+    tools:context=".vCarrots">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/carrot" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:text="Carrots"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="Carrot Nutrition Facts\nOne medium-sized carrot (61g) provides 25 calories, 0.5g of protein, 6g of carbohydrates, and 0g of fat. Carrots are an excellent source of vitamin K, fiber, and vitamin A. The following nutrition information is provided by the USDA.\nCarbs\n
+A cup (128g) of chopped raw carrots has 12.3 grams of carbohydrates, with 3.6 grams of fiber and 6.1 grams of natural sugars.1
+The glycemic index for boiled carrots is low, ranging from 35 to 43.\nFats\n
+Carrots have minimal amounts of fat (nearly 0g for one medium carrot and just 0.3g for a cup of chopped carrot), the majority of which is polyunsaturated.\nProtein\n
+Carrots are not particularly high in protein. A cup of carrots has just 1.2 grams of protein.\nVitamins and Minerals\n
+Carrots are an excellent source of vitamin A—specifically beta carotene, which is responsible for their orange color. Carrots also offer potassium, calcium, magnesium, phosphorus, folate, vitamin E, and vitamin K.\nCalories\n
+One medium-sized carrot (61g) provides 25 calories, with 86% coming from carbs, 9% from protein, and 5% from fat."
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

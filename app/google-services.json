@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "864523700132",
-    "project_id": "fir-b0abc",
-    "storage_bucket": "fir-b0abc.appspot.com"
+    "project_number": "945592011314",
+    "project_id": "healthy-food-fa08d",
+    "storage_bucket": "healthy-food-fa08d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:864523700132:android:38d6361b9745fd1b446331",
+        "mobilesdk_app_id": "1:945592011314:android:b14554cb6c746a6b020a2b",
         "android_client_info": {
-          "package_name": "com.mohamed.firebasetest"
+          "package_name": "com.mohamed.healthyfood"
         }
       },
       "oauth_client": [
         {
-          "client_id": "864523700132-3fjqg8l5cerslm0kt22g9pudvssou4nh.apps.googleusercontent.com",
+          "client_id": "945592011314-tmn8beqd7sute2r70qran5judaet6or6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAwP6K4LIAyRtzp0Od1MzxjpwJ3Y3MkQqo"
+          "current_key": "AIzaSyD7bv6Ppd8TmZglAo_e5-S7KneosdHMmFs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "864523700132-3fjqg8l5cerslm0kt22g9pudvssou4nh.apps.googleusercontent.com",
+              "client_id": "945592011314-tmn8beqd7sute2r70qran5judaet6or6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
