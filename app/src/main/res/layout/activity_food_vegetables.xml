@@ -23,14 +23,6 @@
             android:textStyle="bold" />
 
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/recycle_vegetables"
-            tools:itemCount="6"
-            tools:listitem="@layout/vegetables_row_layout"/>
-
-
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -40,8 +32,7 @@
             android:columnCount="1"
             android:columnOrderPreserved="false"
             android:gravity="center"
-            android:rowCount="4"
-            android:visibility="gone">
+            android:rowCount="4">
 
             <!-- Tomatoes -->
             <androidx.cardview.widget.CardView
