@@ -1,7 +1,6 @@
 package com.mohamed.healthyfood.adpter;
 
 import android.content.res.Resources;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,11 +21,11 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-public class VegetabelsAdpter extends RecyclerView.Adapter<VegetabelsAdpter.VegetablresViewHolder> {
+public class FruitsAdpter extends RecyclerView.Adapter<FruitsAdpter.VegetablresViewHolder> {
 
     ArrayList<FruitModule> fruitModules ;
     DatabaseReference reference;
-    public VegetabelsAdpter(){
+    public FruitsAdpter(){
 
         reference = FirebaseDatabase.getInstance().getReference("fruit");
         fruitModules = new ArrayList<>();
@@ -40,7 +39,6 @@ public class VegetabelsAdpter extends RecyclerView.Adapter<VegetabelsAdpter.Vege
                         notifyItemChanged(fruitModules.size()-1);
                     }
                     notifyDataSetChanged();
-                    Log.i("aetraeytrytiuot", fruitModules.size()+"");
                 }
             }
 

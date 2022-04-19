@@ -7,8 +7,13 @@
     tools:context=".food_fruits">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:id="@+id/recycle_fruits"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="6"
+        tools:listitem="@layout/vegetables_row_layout"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
