@@ -55,7 +55,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/vegetables" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/body" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/fruits" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -160,7 +160,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/herbs" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -195,7 +195,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/mushroom" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -229,7 +229,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/nuts" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -263,7 +263,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/spices" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -297,7 +297,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/fish" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -331,7 +331,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/meats" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -365,7 +365,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/drinks" />
+                        android:src="@drawable/logo" />
 
                     <TextView
                         android:layout_width="wrap_content"

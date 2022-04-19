@@ -13,27 +13,35 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
             android:text="Vegetables"
-            android:textStyle="bold"
-            android:textSize="24sp"
             android:textColor="@color/black"
-            android:layout_margin="20dp"/>
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycle_vegetables"
+            tools:itemCount="6"
+            tools:listitem="@layout/vegetables_row_layout"/>
 
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:rowCount="4"
-            android:columnCount="1"
+            android:layout_gravity="center_horizontal"
             android:layout_margin="5dp"
             android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
             android:gravity="center"
-            android:layout_gravity="center_horizontal"
-            android:columnOrderPreserved="false">
+            android:rowCount="4"
+            android:visibility="gone">
 
             <!-- Tomatoes -->
             <androidx.cardview.widget.CardView
@@ -48,20 +56,20 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="left"
                     android:layout_margin="10dp"
+                    android:gravity="left"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/tomato" />
+                        android:src="@drawable/bc_food" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -71,6 +79,7 @@
                             android:textColor="@color/white"
                             android:textSize="24sp"
                             android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -101,20 +110,20 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="left"
                     android:layout_margin="10dp"
+                    android:gravity="left"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/carrot" />
+                        android:src="@drawable/bc_food1" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -124,6 +133,7 @@
                             android:textColor="@color/white"
                             android:textSize="24sp"
                             android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -154,20 +164,20 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="left"
                     android:layout_margin="10dp"
+                    android:gravity="left"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/bell_peppers" />
+                        android:src="@drawable/common_full_open_on_phone" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -177,6 +187,7 @@
                             android:textColor="@color/white"
                             android:textSize="24sp"
                             android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -206,20 +217,20 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="left"
                     android:layout_margin="10dp"
+                    android:gravity="left"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/onion" />
+                        android:src="@drawable/logo" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -229,6 +240,7 @@
                             android:textColor="@color/white"
                             android:textSize="24sp"
                             android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -258,20 +270,20 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="left"
                     android:layout_margin="10dp"
+                    android:gravity="left"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/potatoes" />
+                        android:src="@drawable/logo" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -281,6 +293,7 @@
                             android:textColor="@color/white"
                             android:textSize="24sp"
                             android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package com.mohamed.healthyfood;
+package com.mohamed.healthyfood.module;
 
 public class FruitModule {
 
