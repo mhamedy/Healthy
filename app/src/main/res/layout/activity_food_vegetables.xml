@@ -55,7 +55,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/bc_food" />
+                        android:src="@drawable/tomato" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -109,7 +109,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/bc_food1" />
+                        android:src="@drawable/carrot" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -163,7 +163,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/common_full_open_on_phone" />
+                        android:src="@drawable/bell_peppers" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -216,7 +216,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/onion" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -269,7 +269,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/potatoes" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"

@@ -55,7 +55,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/vegetables" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/body" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -111,7 +111,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/cardFruits"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="5dp">
 
@@ -125,14 +125,14 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/fruits" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Fruits"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -140,13 +140,13 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- Herbs -->
+            <!-- Sports -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fHerbs"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/black"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="5dp">
 
@@ -160,14 +160,14 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/sports" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="Herbs"
-                        android:textColor="@color/black"
+                        android:text="Sports"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -195,7 +195,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/mushroom" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -229,7 +229,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/nuts" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -263,7 +263,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/spices" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -297,7 +297,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/fish" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -331,7 +331,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/meats" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -365,7 +365,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_marginTop="5dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/drinks" />
 
                     <TextView
                         android:layout_width="wrap_content"

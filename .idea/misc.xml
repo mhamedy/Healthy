@@ -3,25 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_bmi_calculator.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_fitness.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_food_fruits.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_food_herbs.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_food_vegetables.xml" value="0.264" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_ideal_weight.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_mushroom.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_splash_screen.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_vcarrots.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_vegetarian.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_vonion.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_vpapper.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_vpotatoes.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_vtomato.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/activity_water.xml" value="0.275" />
-        <entry key="..\:/Android Project/Healthy/app/src/main/res/layout/vegetables_row_layout.xml" value="0.275" />
+        <entry key="app/src/main/res/drawable/gradient_fruits.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/gradient_sport.xml" value="0.1305" />
         <entry key="app/src/main/res/layout/activity_bmi_calculator.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_fitness.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_food_fruits.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_food_herbs.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_food_vegetables.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_ideal_weight.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_mushroom.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.17889492753623187" />
         <entry key="app/src/main/res/layout/activity_vcarrots.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_vegetarian.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_vonion.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_vpapper.xml" value="0.17889492753623187" />
         <entry key="app/src/main/res/layout/activity_vpotatoes.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_vtomato.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_water.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/sports_row_layout.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/vegetables_row_layout.xml" value="0.17889492753623187" />
       </map>
     </option>
   </component>
