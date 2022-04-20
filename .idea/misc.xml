@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/gradient_card4.xml" value="0.1305" />
         <entry key="app/src/main/res/drawable/gradient_fruits.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/gradient_mush.xml" value="0.1305" />
         <entry key="app/src/main/res/drawable/gradient_nuts.xml" value="0.1305" />
         <entry key="app/src/main/res/drawable/gradient_sport.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/gradient_veg.xml" value="0.1305" />
         <entry key="app/src/main/res/layout/activity_bmi_calculator.xml" value="0.17889492753623187" />
         <entry key="app/src/main/res/layout/activity_fitness.xml" value="0.17889492753623187" />
         <entry key="app/src/main/res/layout/activity_food_drinks.xml" value="0.14361702127659576" />
@@ -29,6 +32,8 @@
         <entry key="app/src/main/res/layout/drinks_row_layout.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/fish_row_layout.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/meat_row_layout.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/mushroom_row_layout.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/mushroomt_row_layout.xml" value="0.17889492753623187" />
         <entry key="app/src/main/res/layout/nuts_row_layout.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/sports_row_layout.xml" value="0.17889492753623187" />
         <entry key="app/src/main/res/layout/vegetables_row_layout.xml" value="0.17889492753623187" />

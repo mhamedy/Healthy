@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_card"
+    android:background="@drawable/gradient_veg"
     tools:context=".food_vegetables">
 
 
@@ -40,7 +40,7 @@
                 android:layout_width="360dp"
                 android:layout_height="150dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/dRed"
+                app:cardBackgroundColor="@color/green"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="5dp">
 
@@ -94,7 +94,7 @@
                 android:layout_width="360dp"
                 android:layout_height="150dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/dOrange"
+                app:cardBackgroundColor="@color/green"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="5dp">
 
@@ -201,7 +201,7 @@
                 android:layout_width="360dp"
                 android:layout_height="150dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/lRed"
+                app:cardBackgroundColor="@color/green"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="5dp">
 
@@ -254,7 +254,7 @@
                 android:layout_width="360dp"
                 android:layout_height="150dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/lSand"
+                app:cardBackgroundColor="@color/green"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="5dp">
 

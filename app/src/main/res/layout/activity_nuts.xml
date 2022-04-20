@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mushroom">
+    tools:context=".food_nuts">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycle_mushroom"
+        android:id="@+id/recycle_nuts"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:itemCount="6"
-        android:background="@drawable/gradient_mush"
-        tools:listitem="@layout/mushroom_row_layout"
+        android:background="@drawable/gradient_nuts"
+        tools:listitem="@layout/nuts_row_layout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

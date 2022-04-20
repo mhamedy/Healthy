@@ -181,7 +181,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/brown"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="5dp">
 
@@ -202,7 +202,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Mushroom"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
