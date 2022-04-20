@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthyFood">
         <activity
+            android:name=".food_meat"
+            android:exported="false" />
+        <activity
+            android:name=".food_drinks"
+            android:exported="false" />
+        <activity
+            android:name=".food_fish"
+            android:exported="false" />
+        <activity
+            android:name=".food_nuts"
+            android:exported="false" />
+        <activity
             android:name=".mushroom"
             android:exported="false" />
         <activity

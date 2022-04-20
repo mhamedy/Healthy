@@ -35,41 +35,6 @@
             android:layout_gravity="center_horizontal"
             android:columnOrderPreserved="false">
 
-            <!-- vegetables -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fVegetables"
-                android:layout_width="170dp"
-                android:layout_height="170dp"
-                android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/gray"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="5dp"
-                        android:src="@drawable/vegetables" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:text="Vegetables"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
             <!-- body -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/body"
@@ -105,41 +70,6 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- fruits -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/fFruits"
-                android:layout_width="170dp"
-                android:layout_height="170dp"
-                android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/cardFruits"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="5dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="5dp"
-                        android:src="@drawable/fruits" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:text="Fruits"
-                        android:textColor="@color/white"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
             <!-- Sports -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fHerbs"
@@ -167,6 +97,76 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Sports"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- vegetables -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fVegetables"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/vegetables" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Vegetables"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- fruits -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fFruits"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="@color/cardFruits"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/fruits" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Fruits"
                         android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -212,10 +212,11 @@
 
             <!-- nuts -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/fNuts"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="#523A28"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="5dp">
 
@@ -236,7 +237,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Nuts"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -244,7 +245,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- spices -->
+            <!-- spices
             <androidx.cardview.widget.CardView
                 android:layout_width="170dp"
                 android:layout_height="170dp"
@@ -277,9 +278,10 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
+                            -->
             <!-- fish -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/fFish"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="15dp"
@@ -314,6 +316,7 @@
 
             <!-- meats -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/fMeats"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="15dp"
@@ -348,6 +351,7 @@
 
             <!-- Drinks -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/fDrinks"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="15dp"
