@@ -33,15 +33,19 @@ public class Vegetarian extends AppCompatActivity implements View.OnClickListene
 
         cardNuts = (CardView) findViewById(R.id.fNuts);
         cardNuts.setOnClickListener(this);
-
+    /*
         cardDrinks = (CardView) findViewById(R.id.fDrinks);
         cardDrinks.setOnClickListener(this);
+
+        cardMeats = (CardView) findViewById(R.id.fMeats);
+        cardMeats.setOnClickListener(this);
+
+     */
 
         carFish = (CardView) findViewById(R.id.fFish);
         carFish.setOnClickListener(this);
 
-        cardMeats = (CardView) findViewById(R.id.fMeats);
-        cardMeats.setOnClickListener(this);
+
 
     }
 
@@ -80,23 +84,24 @@ public class Vegetarian extends AppCompatActivity implements View.OnClickListene
                 startActivity(intent);
                 break;
 
+            case R.id.fFish:
+                intent = new Intent(this, food_fish.class);
+                startActivity(intent);
+                break;
+
+                /*
             case R.id.fDrinks:
                 intent = new Intent(this, food_drinks.class);
                 startActivity(intent);
                 break;
 
 
-            case R.id.fFish:
-                intent = new Intent(this, food_fish.class);
-                startActivity(intent);
-                break;
-
             case R.id.fMeats:
                 intent = new Intent(this, food_meat.class);
                 startActivity(intent);
                 break;
 
-
+                 */
         }
 
     }

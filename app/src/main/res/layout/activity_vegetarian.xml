@@ -285,7 +285,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="@color/red"
+                app:cardBackgroundColor="#5534A5"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="5dp">
 
@@ -306,7 +306,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Fish"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -314,7 +314,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- meats -->
+            <!-- meats
             <androidx.cardview.widget.CardView
                 android:id="@+id/fMeats"
                 android:layout_width="170dp"
@@ -349,7 +349,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- Drinks -->
+            - Drinks -
             <androidx.cardview.widget.CardView
                 android:id="@+id/fDrinks"
                 android:layout_width="170dp"
@@ -383,7 +383,7 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
+            -->
         </GridLayout>
 
     </LinearLayout>

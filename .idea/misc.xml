@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/gradient_card4.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/gradient_fish.xml" value="0.1305" />
         <entry key="app/src/main/res/drawable/gradient_fruits.xml" value="0.1305" />
         <entry key="app/src/main/res/drawable/gradient_mush.xml" value="0.1305" />
         <entry key="app/src/main/res/drawable/gradient_nuts.xml" value="0.1305" />
