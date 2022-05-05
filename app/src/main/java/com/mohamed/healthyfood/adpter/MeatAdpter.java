@@ -16,27 +16,27 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.mohamed.healthyfood.R;
-import com.mohamed.healthyfood.module.FishModule;
+import com.mohamed.healthyfood.module.MeatModule;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-public class FishAdpter extends RecyclerView.Adapter<FishAdpter.FishViewHolder> {
+public class MeatAdpter extends RecyclerView.Adapter<MeatAdpter.MeatViewHolder> {
 
-    ArrayList<FishModule> fishModules ;
+    ArrayList<MeatModule> meatModules ;
     DatabaseReference reference;
-    public FishAdpter(){
+    public MeatAdpter(){
 
-        reference = FirebaseDatabase.getInstance().getReference("fish");
-        fishModules = new ArrayList<>();
+        reference = FirebaseDatabase.getInstance().getReference("meat");
+        meatModules = new ArrayList<>();
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(snapshot.exists()){
                     for(DataSnapshot item : snapshot.getChildren()){
-                        FishModule module = item.getValue(FishModule.class);
-                        fishModules.add(module);
-                        notifyItemChanged(fishModules.size()-1);
+                        MeatModule module = item.getValue(MeatModule.class);
+                        meatModules.add(module);
+                        notifyItemChanged(meatModules.size()-1);
                     }
                     notifyDataSetChanged();
                 }
@@ -49,40 +49,40 @@ public class FishAdpter extends RecyclerView.Adapter<FishAdpter.FishViewHolder> 
     }
     @NonNull
     @Override
-    public FishViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fish_row_layout,parent,false);
-        return new FishViewHolder(view);
+    public MeatViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.meat_row_layout,parent,false);
+        return new MeatViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull FishViewHolder holder, int position) {
-            holder.bulidUI(fishModules.get(position));
+    public void onBindViewHolder(@NonNull MeatViewHolder holder, int position) {
+        holder.bulidUI(meatModules.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return fishModules.size();
+        return meatModules.size();
     }
 
-    public class FishViewHolder extends RecyclerView.ViewHolder{
+    public class MeatViewHolder extends RecyclerView.ViewHolder{
         ImageView imageFish;
         TextView nameFish  , infoFish, recipesFish, textureFish;
-        public FishViewHolder(@NonNull View itemView) {
+        public MeatViewHolder(@NonNull View itemView) {
             super(itemView);
-            imageFish = itemView.findViewById(R.id.image_fish);
-            nameFish = itemView.findViewById(R.id.name_fish);
-            infoFish = itemView.findViewById(R.id.info_fish);
-            recipesFish = itemView.findViewById(R.id.recipes);
-            textureFish = itemView.findViewById(R.id.texture);
+            imageFish = itemView.findViewById(R.id.image_meat);
+            nameFish = itemView.findViewById(R.id.name_meat);
+            infoFish = itemView.findViewById(R.id.info_meat);
+            recipesFish = itemView.findViewById(R.id.text_calorie);
+            textureFish = itemView.findViewById(R.id.protein_meat);
 
         }
 
-        public void bulidUI(FishModule module){
-            nameFish.setText(module.getName_fish());
-            infoFish.setText(module.getInfo_fish());
-            recipesFish.setText(module.getRecipes());
-            textureFish.setText(module.getTexture());
-            if(module.getImage_fish()!=null) showImage(module.getImage_fish());
+        public void bulidUI(MeatModule module){
+            nameFish.setText(module.getName_meat());
+            infoFish.setText(module.getInfo_meat());
+            recipesFish.setText(module.getCalories());
+            textureFish.setText(module.getProtein());
+            if(module.getImage_meat()!=null) showImage(module.getImage_meat());
         }
         private void showImage(String url) {
             if (url != null && url.isEmpty() == false) {

@@ -314,7 +314,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <!-- meats
+            <!-- meats -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fMeats"
                 android:layout_width="170dp"
@@ -349,7 +349,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            - Drinks -
+            <!-- Drinks
             <androidx.cardview.widget.CardView
                 android:id="@+id/fDrinks"
                 android:layout_width="170dp"
